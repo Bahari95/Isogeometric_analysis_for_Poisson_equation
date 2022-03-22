@@ -6,3 +6,5 @@ Dirichlet boundary conditions are defined by control points.
 **For your analysis You can find and install the following packages from the url**
 
 for psydac : https://github.com/pyccel/psydac
+
+for simplines : https://github.com/Bahari95/simplines
