@@ -1,5 +1,5 @@
 # Poisson_equation.
-## In the repository, you find :
+## In the repositories, you will find :
 
 **Implementation of Poisson’s equation with Homogeneous Dirichlet boundary conditions in three dimensions using simplines.
 **Implementation of Poisson’s equation with Non-Homogeneous Dirichlet boundary conditions in two dimensions using psydac.
