@@ -1,5 +1,8 @@
-# Poisson_equation_using_control_points_at_the_boundary
-Dirichlet boundary conditions are defined by control points.
+# Poisson_equation.
+## In the repository, you find :
+
+**Implementation of Poisson’s equation with Homogeneous Dirichlet boundary conditions in three dimensions using simplines.
+**Implementation of Poisson’s equation with Non-Homogeneous Dirichlet boundary conditions in two dimensions using psydac.
 
 **Please install simplines**
 
