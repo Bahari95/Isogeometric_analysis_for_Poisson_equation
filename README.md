@@ -1,9 +1,9 @@
 # Poisson_equation.
 ## In the repositories, you will find :
 
-**Implementation of Poisson’s equation with Homogeneous Dirichlet boundary conditions in three dimensions using simplines.
+**Implementation of Poisson equation with Homogeneous Dirichlet boundary conditions in three dimensions using simplines.
 
-**Implementation of Poisson’s equation with Non-Homogeneous Dirichlet boundary conditions in three dimensions using simplines.(coming soon)
+**Implementation of Poisson equation with Non-Homogeneous Dirichlet boundary conditions in three dimensions using simplines.(coming soon)
 
 ### Please install simplines
 
