@@ -3,7 +3,7 @@
 
 **Implementation of Poisson’s equation with Homogeneous Dirichlet boundary conditions in three dimensions using simplines.
 
-**Implementation of Poisson’s equation with Non-Homogeneous Dirichlet boundary conditions in two dimensions using psydac.
+**Implementation of Poisson’s equation with Non-Homogeneous Dirichlet boundary conditions in three dimensions using simplines.(coming soon)
 
 ### Please install simplines
 
