@@ -110,7 +110,7 @@ xuh_uni = xuh
 #---Compute a solution
 nbpts = 50
 #---Solution in uniform mesh
-u, ux, uy, Y, X = pyccel_sol_field_2d((nbpts,nbpts),  xuh , Vh.knots, Vh.degree)
+u, ux, uy, X, Y = pyccel_sol_field_2d((nbpts,nbpts),  xuh , Vh.knots, Vh.degree)
 
 #~~~~~~~~~~~~~~~~~~~~
 #.. Plot the surface
