@@ -48,9 +48,8 @@ from tabulate import tabulate
 
 #==============================================================================
 #.......Poisson ALGORITHM
-def poisson_solve(V1, V2, V3, V, space = 0):
-    u                   = StencilVector(V.vector_space)
-    if space == 0:
+def poisson_solve(V1, V2, V3, V):
+       u                   = StencilVector(V.vector_space)
        # ++++
        #... We delete the first and the last spline function
        #. as a technic for applying Dirichlet boundary condition
@@ -127,8 +126,7 @@ V3   = SplineSpace(degree=degree, nelements= nelements, nderiv = 2, quad_degree 
 V    = TensorSpace(V1, V2, V3)
 
 print('#---IN-UNIFORM--MESH')
-u_pH, xuh, l2_norm, H1_norm = poisson_solve(V1, V2, V3, V, space = 0)
-xuh_uni = xuh
+u_pH, xuh, l2_norm, H1_norm = poisson_solve(V1, V2, V3, V)
 print('-----> L^2-error ={} -----> H^1-error = {}'.format(l2_norm, H1_norm))
 
 #---Compute a solution
